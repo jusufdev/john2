@@ -20,7 +20,7 @@
   #post {
     padding-block: 20px;
   }
-  .post {
+  .post .cart {
     flex-direction: column;
   }
   .post-top p {
