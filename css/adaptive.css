@@ -2,7 +2,7 @@
   .header {
     display: none;
   }
-  .burger {
+  .burger-menu {
     display: flex;
   }
   #main {
@@ -10,6 +10,7 @@
   }
   .main {
     flex-direction: column-reverse;
+    align-items: center;
   }
   .main-year {
     text-align: center;
