@@ -94,6 +94,10 @@ button {
   padding-bottom: 30px;
   gap: 20px;
 }
+.post .cart p {
+  width: 100%;
+  max-width: clamp(18.75rem, 14.205rem + 22.73vw, 31.25rem);
+}
 .post-top p {
   font-size: clamp(1rem, 0.917rem + 0.42vw, 1.25rem);
 }
@@ -139,6 +143,10 @@ button {
   gap: 35px;
   padding-bottom: 30px;
   padding-top: 30px;
+}
+.works img {
+  width: 100%;
+  max-width: clamp(12.5rem, 10.682rem + 9.09vw, 17.5rem);
 }
 .works-cart {
   width: 100%;
