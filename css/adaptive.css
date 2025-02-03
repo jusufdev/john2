@@ -1,0 +1,41 @@
+@media (max-width) : 605px {
+  .header {
+    display: none;
+  }
+  .burger {
+    display: flex;
+  }
+  #main {
+    padding-block: 30px;
+  }
+  .main {
+    flex-direction: column-reverse;
+  }
+  .main-year {
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+  }
+  #post {
+    padding-block: 20px;
+  }
+  .post {
+    flex-direction: column;
+  }
+  .post-top p {
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+  .post-top a {
+    display: none;
+  }
+  .post .cart {
+    gap: 8px;
+  }
+  .works-top {
+    justify-content: center;
+  }
+  .works {
+    flex-direction: column;
+  }
+}
