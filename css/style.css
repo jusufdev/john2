@@ -63,7 +63,7 @@ button {
 }
 .main-year {
   width: 100%;
-  max-width: clamp(18.75rem, 14.583rem + 20.83vw, 31.25rem);
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   gap: 20px;
